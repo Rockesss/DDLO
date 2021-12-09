@@ -1,0 +1,61 @@
+html, body{
+    padding: 0pt;
+    margin: 0pt;
+    font-family: sans-serif;
+}
+
+/* titre + petit paragraphe */
+.title-h1{
+    background: transparent url(oreille.jpg) no-repeat left center;
+    font-size: 2rem;
+    padding-left: 30px;
+    text-transform: uppercase   ;
+}
+
+
+
+.counter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.counter .counter-value{
+    font-size: 3rem;
+
+}
+
+.counter .ctrls{
+    font-size: 1.5rem;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    background-color: #333;
+
+}
+
+.counter .ctrls a{
+    display: block;
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.counter .ctrls a.minus{
+    background: #f00;
+}
+
+.counter .ctrls a.plus{
+    background: #00f;
+    left: 50% ;
+}
